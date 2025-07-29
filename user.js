@@ -231,7 +231,7 @@ user_pref("privacy.clearOnShutdown_v2.cache", true); // Temporary cached files a
 user_pref("privacy.clearOnShutdown_v2.formdata", true); // Saved form info
 
 // PREF: disable Firefox Sync
-user_pref("identity.fxaccounts.enabled", false);
+user_pref("identity.fxaccounts.enabled", true);
 
 // PREF: disable the Firefox View tour from popping up
 user_pref("browser.firefox-view.feature-tour", "{\"screen\":\"\",\"complete\":true}");
